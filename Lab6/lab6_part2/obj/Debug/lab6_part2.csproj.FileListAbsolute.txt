@@ -1,0 +1,36 @@
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\bin\Debug\lab6_part2.exe.config
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\bin\Debug\lab6_part2.exe
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\bin\Debug\lab6_part2.pdb
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.Form1.resources
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.Properties.Resources.resources
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.csproj.GenerateResource.Cache
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.exe
+c:\Users\Vitalik\documents\visual studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.pdb
+C:\Users\Vitalik\Documents\Visual Studio 2015\Projects\lab6\lab6_part2\bin\Debug\Database1.mdf
+C:\Users\Vitalik\Documents\Visual Studio 2015\Projects\lab6\lab6_part2\bin\Debug\Database1_log.ldf
+C:\Users\Vitalik\Documents\Visual Studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.csprojAssemblyReference.cache
+C:\Users\Vitalik\Documents\Visual Studio 2015\Projects\lab6\lab6_part2\obj\Debug\lab6_part2.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.csprojAssemblyReference.cache
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.Form1.resources
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.Properties.Resources.resources
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.csproj.GenerateResource.cache
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.exe
+C:\Users\Vitalik\Documents\lab5\lab6_part2\obj\Debug\lab6_part2.pdb
+C:\Users\Vitalik\Documents\lab5\lab6_part2\bin\Debug\Database1.mdf
+C:\Users\Vitalik\Documents\lab5\lab6_part2\bin\Debug\Database1_log.ldf
+C:\Users\Vitalik\Documents\lab5\lab6_part2\bin\Debug\lab6_part2.exe.config
+C:\Users\Vitalik\Documents\lab5\lab6_part2\bin\Debug\lab6_part2.exe
+C:\Users\Vitalik\Documents\lab5\lab6_part2\bin\Debug\lab6_part2.pdb
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\bin\Debug\Database1.mdf
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\bin\Debug\Database1_log.ldf
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\bin\Debug\lab6_part2.exe.config
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\bin\Debug\lab6_part2.exe
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\bin\Debug\lab6_part2.pdb
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.csprojAssemblyReference.cache
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.Form1.resources
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.Properties.Resources.resources
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.csproj.GenerateResource.cache
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.csproj.CoreCompileInputs.cache
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.exe
+D:\For_university\ТРПЗ_2\Lab6\lab6_part2\obj\Debug\lab6_part2.pdb

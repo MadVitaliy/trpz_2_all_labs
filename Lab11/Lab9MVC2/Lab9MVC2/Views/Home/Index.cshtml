@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Lab9MVC2.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Employees</h2>
+
+<th> @Html.ActionLink("Add employee", "Create", new { });</th>
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Age
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Edit ", "Edit", new { id = item.IdEmployee })
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Delete ", "Delete", new { id = item.IdEmployee })
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Specialization ", "Details", new { id = item.IdEmployee })
+        </td>
+    </tr>
+}
+
+</table>

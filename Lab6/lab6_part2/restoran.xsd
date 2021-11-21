@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bill" msprop:Generator_TableClassName="BillDataTable" msprop:Generator_TableVarName="tableBill" msprop:Generator_TablePropName="Bill" msprop:Generator_RowDeletingName="BillRowDeleting" msprop:Generator_RowChangingName="BillRowChanging" msprop:Generator_RowEvHandlerName="BillRowChangeEventHandler" msprop:Generator_RowDeletedName="BillRowDeleted" msprop:Generator_UserTableName="Bill" msprop:Generator_RowChangedName="BillRowChanged" msprop:Generator_RowEvArgName="BillRowChangeEvent" msprop:Generator_RowClassName="BillRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="billid" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnbillid" msprop:Generator_ColumnPropNameInRow="billid" msprop:Generator_ColumnPropNameInTable="billidColumn" msprop:Generator_UserColumnName="billid" type="xs:int" />
+              <xs:element name="tableNumber" msprop:Generator_ColumnVarNameInTable="columntableNumber" msprop:Generator_ColumnPropNameInRow="tableNumber" msprop:Generator_ColumnPropNameInTable="tableNumberColumn" msprop:Generator_UserColumnName="tableNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="date" msprop:Generator_ColumnVarNameInTable="columndate" msprop:Generator_ColumnPropNameInRow="date" msprop:Generator_ColumnPropNameInTable="dateColumn" msprop:Generator_UserColumnName="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Dish" msprop:Generator_TableClassName="DishDataTable" msprop:Generator_TableVarName="tableDish" msprop:Generator_TablePropName="Dish" msprop:Generator_RowDeletingName="DishRowDeleting" msprop:Generator_RowChangingName="DishRowChanging" msprop:Generator_RowEvHandlerName="DishRowChangeEventHandler" msprop:Generator_RowDeletedName="DishRowDeleted" msprop:Generator_UserTableName="Dish" msprop:Generator_RowChangedName="DishRowChanged" msprop:Generator_RowEvArgName="DishRowChangeEvent" msprop:Generator_RowClassName="DishRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dishid" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columndishid" msprop:Generator_ColumnPropNameInRow="dishid" msprop:Generator_ColumnPropNameInTable="dishidColumn" msprop:Generator_UserColumnName="dishid" type="xs:int" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" />
+              <xs:element name="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_UserColumnName="price" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Order" msprop:Generator_TableClassName="OrderDataTable" msprop:Generator_TableVarName="tableOrder" msprop:Generator_TablePropName="Order" msprop:Generator_RowDeletingName="OrderRowDeleting" msprop:Generator_RowChangingName="OrderRowChanging" msprop:Generator_RowEvHandlerName="OrderRowChangeEventHandler" msprop:Generator_RowDeletedName="OrderRowDeleted" msprop:Generator_UserTableName="Order" msprop:Generator_RowChangedName="OrderRowChanged" msprop:Generator_RowEvArgName="OrderRowChangeEvent" msprop:Generator_RowClassName="OrderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="orderid" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnorderid" msprop:Generator_ColumnPropNameInRow="orderid" msprop:Generator_ColumnPropNameInTable="orderidColumn" msprop:Generator_UserColumnName="orderid" type="xs:int" />
+              <xs:element name="billid" msprop:Generator_ColumnVarNameInTable="columnbillid" msprop:Generator_ColumnPropNameInRow="billid" msprop:Generator_ColumnPropNameInTable="billidColumn" msprop:Generator_UserColumnName="billid" type="xs:int" minOccurs="0" />
+              <xs:element name="dishid" msprop:Generator_ColumnVarNameInTable="columndishid" msprop:Generator_ColumnPropNameInRow="dishid" msprop:Generator_ColumnPropNameInTable="dishidColumn" msprop:Generator_UserColumnName="dishid" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msdata:ReadOnly="true" msdata:Expression="count" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:int" minOccurs="0" />
+              <xs:element name="count" msprop:Generator_ColumnVarNameInTable="columncount" msprop:Generator_ColumnPropNameInRow="count" msprop:Generator_ColumnPropNameInTable="countColumn" msprop:Generator_UserColumnName="count" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="BillKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Bill" />
+      <xs:field xpath="mstns:billid" />
+    </xs:unique>
+    <xs:unique name="DishKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Dish" />
+      <xs:field xpath="mstns:dishid" />
+    </xs:unique>
+    <xs:unique name="OrderKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Order" />
+      <xs:field xpath="mstns:orderid" />
+    </xs:unique>
+    <xs:keyref name="FK_Dish_Order" refer="DishKey1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:Order" />
+      <xs:field xpath="mstns:billid" />
+    </xs:keyref>
+    <xs:keyref name="FK_Bill_Order" refer="BillKey1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:Order" />
+      <xs:field xpath="mstns:billid" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

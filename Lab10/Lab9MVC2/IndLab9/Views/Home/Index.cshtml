@@ -1,0 +1,47 @@
+﻿@model IEnumerable<IndLab9.Models.Teacher>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>Teachers</h2>
+
+<th> @Html.ActionLink("Add teachers", "Create", new { });</th>
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Age
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Edit ", "Edit", new { id = item.IdTeacher })
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Delete ", "Delete", new { id = item.IdTeacher })
+        </td>
+        <td>    </td>
+        <td>
+            @Html.ActionLink("Suject", "Details", new { id = item.IdTeacher })
+        </td>
+    </tr>
+    }
+
+</table>
